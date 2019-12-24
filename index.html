@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>长沙格辉电子商务有限公司</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/jquery.fullPage.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="lib/jquery/jquery.fullPage.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+</head>
+<body>
+<!--导航栏-->
+<nav class="navbar navbar-fixed-top my-navbar" id="navbar" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+                    aria-expanded="false">
+                <span class="sr-only">汉堡按钮</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a style="margin-right: 30px; margin-top: 3px;" href="" class="navbar-brand" id="nav-barnd-itheima">
+                <img id="logo" src="images/logo.png" alt="">
+                <span>长沙格辉电子商务有限公司</span>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul id="menu" class="nav navbar-nav">
+                <li  data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+                <li data-menuanchor="page2" ><a href="#page2">平台优势</a></li>
+                <li data-menuanchor="page3"><a href="#page3">公司业务</a></li>
+                <li data-menuanchor="page4"><a href="#page4">客户案例</a></li>
+                <li data-menuanchor="page5"><a href="#page5">合作伙伴</a></li>
+                <li data-menuanchor="page6"><a href="#page6">联系我们</a></li>
+                <li style="margin-left: 80px;" class="">
+                    <a style="margin-top: -8px;" href="tel:17708485171" title="致电咨询">
+                        <i style="margin-top: 3px;" class="fa fa-phone-square fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a style="margin-top: -8px;" href="https://qm.qq.com/cgi-bin/qm/qr?k=6X1p7aSa-JdZmt2sb4jN-QbinDqDnyJ6" title="QQ">
+                        <i style="margin-top: 3px;" class="fa fa-qq fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a style="margin-top: -8px;" href="#" data-clipboard-action="copy" data-clipboard-target="#target" id="copy_wechat" title="微信">
+                        <i style="margin-top: 3px;" class="fa fa-wechat fa-2x"></i>
+                        <span style="display: none" id="target">1859582580</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="dowebok">
+    <!--轮播图-->
+    <div class="section">
+        <div class="ck-slide">
+            <ul class="ck-slide-wrapper ">
+                <li>
+                    <div class="yy"></div>
+                    <img class="img-responsive " src="images/Carousel1.jpg" alt="">
+                    <div class="yy"></div>
+                    <div class="ck-slide-zm">
+                        <p id="ck-p1">更专业的短视频策划 拍摄 运营</p>
+                        <p id="ck-p2">DESIGNER</p>
+                        <p id="ck-p3">格辉商务是一家集垂直原创视频内容产出、投放发布，短视频整体代运营，互联网影视及新媒体综合资源，网红孵化与一体的综合性的短视频平台。<br/>格辉电子商务团队紧跟时代步伐，紧贴用户需求，用最新的短视频方式，讲述你的故事
+                        </p>
+                    </div>
+                </li>
+                <li style="display:none">
+                    <div class="yy"></div>
+                    <img class="img-responsive" src="images/Carousel4.jpg" alt="">
+                    <div class="ck-slide-zm">
+                        <p id="ck-p4">创意策划，拍摄新潮独特的短视频</p>
+                        <p id="ck-p5">CREATIVE IDEA</p>
+                    </div>
+
+                </li>
+                <li style="display:none">
+                    <div class="yy"></div>
+                    <img class="img-responsive" src="images/Carousel3.jpg" alt="">
+                    <div class="ck-slide-zm">
+                        <p id="ck-p6">企业<em>产品</em> <em>视频拍摄制作</em><br>通过短视频的传播<br>更加<em> 新潮</em><em> 创意 </em><em> 灵活 </em>的展示产品展示自我
+                        </p>
+                        <p id="ck-p7">I·design</p>
+                    </div>
+                </li>
+                <li style="display:none">
+                    <div class="yy"></div>
+                    <img class="img-responsive" src="images/Carousel5.jpg " alt="">
+                    <div class="ck-slide-zm">
+                        <p id="ck-p8">长沙格辉商务</p>
+                        <p id="ck-p9">Changsha Gehui E-commerce Co., Ltd.</p>
+                        <p id="ck-p10">SPECIALITY</p>
+                        <p id="ck-p11">——我们足够专业<br></p>
+                    </div>
+                </li>
+            </ul>
+            <a href="javascript:;" class="ctrl-slide ck-prev">上一张</a>
+            <a href="javascript:;" class="ctrl-slide ck-next">下一张</a>
+
+            <div class="ck-slidebox">
+                <div class="slideWrap">
+                    <ul class="dot-wrap">
+                        <li class="current"><em>1</em></li>
+                        <li><em>2</em></li>
+                        <li><em>3</em></li>
+                        <li><em>4</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--平台优势-->
+    <div class="section">
+        <div class="Introduction slide">
+            <div class="Introduction">
+                <div id="why">
+                    <h1>为<br>什<br>么<br>选<br>择<br>抖<br>音</h1>
+                </div>
+                <div id="Advantage">
+                    <ul>
+                        <li id="Advantage-li1" >
+                            <div class="li-1">
+                                <i class="fa fa-pie-chart fa-5x"></i>
+                            </div>
+                            <div class="li-2">
+                                <div class="li-title">
+                                    <p>流量优势</p>
+                                </div>
+                                <p>&nbsp;&nbsp;截至2019年7月，日活用户已突破3.2亿，月活用户5亿+</p>
+                            </div>
+                        </li>
+                        <li id="Advantage-li2">
+                            <div class="li-1">
+                                <i class="fa fa-area-chart fa-5x"></i>
+                            </div>
+                            <div class="li-2">
+                                <div class="li-title">
+                                    <p>用户粘性强</p>
+                                </div>
+                                <p>&nbsp;&nbsp;截至2018年底，抖音的人均日启动次数已达6次，人均单日使用时长在1小时左右，抖音短视频的播放量超过200亿次。</p>
+                            </div>
+                        </li>
+                        <li id="Advantage-li3">
+                            <div class="li-1">
+                                <i class="fa fa-check-circle fa-5x"></i>
+                            </div>
+                            <div class="li-2">
+                                <div class="li-title">
+                                    <p>推荐用户精准</p>
+                                </div>
+                                <p>&nbsp;&nbsp;抖音推荐算法赋能视频内容， 将其精准推荐给潜在新用户，提升品牌知名度的同时获取更多新增用户。</p>
+                            </div>
+                        </li>
+                        <li id="Advantage-li4">
+                            <div class="li-1">
+                                <i class="fa fa-line-chart fa-5x"></i>
+                            </div>
+                            <div class="li-2">
+                                <div class="li-title">
+                                    <p>消费潜力大</p>
+                                </div>
+                                <p>&nbsp;&nbsp;抖音用户大多是年轻群体，一、二线城市用户占比高，拥有更强的消费意愿。分布最广的是中等消费者，占比32.26%，其次是中高等消费者，占比29.47%，强烈的消费意愿与能力为日后小程序变现提供先决条件。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Introduction slide">
+            <div class="Applets">
+                <div class="Applets_tlt">
+                    <div class="Applets_tlt_h1"><h1>流量有优势</h1></div>
+                    <div class="Applets_text">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;抖音推荐算法赋能小程序，将其精准推荐给潜在新用户，提升品牌知名度的同时获取更多新增用户</p>
+                    </div>
+                </div>
+                <div class="Applets_imgsbox">
+                    <div class="single1">
+                        <img src="images/Advantage%20(1).png" alt="">
+                    </div>
+                    <div class="single2">
+                        <img src="images/Advantage%20(2).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Introduction slide">
+            <div class="Applets" id="Applets2">
+                <div class="Applets_tlt">
+                    <div class="Applets_tlt_h1"><h1>达人有优势</h1></div>
+                    <div class="Applets_text">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;利用抖音大v和身边玩抖音的草根达人帮你分销带货</p>
+                    </div>
+                </div>
+                <div class="Applets_imgsbox">
+                    <div class="single1">
+                        <img src="images/Advantage%20(4).png" alt="">
+                    </div>
+                    <div class="single2">
+                        <img src="images/Advantage%20(5).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Introduction slide">
+            <div class="Applets" id="Applets3">
+                <div class="Applets_tlt">
+                    <div class="Applets_tlt_h1"><h1>活动有优势</h1></div>
+                    <div class="Applets_text">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;利用抖音大v和身边玩抖音的草根达人帮你分销带货</p>
+                    </div>
+                </div>
+                <div class="Applets_imgsbox">
+                    <div class="box_img1">
+                        <img src="images/Advantage%20(7).png" alt="">
+                    </div>
+                    <div class="box_img2">
+                        <img src="images/Advantage%20(6).png" alt="">
+                    </div>
+                    <div class="box_img3">
+                        <img src="images/Advantage%20(3).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--我们能做什么-->
+    <div class="section">
+        <!--第二屏第一幕-->
+        <div class="business slide">
+            <div class="business">
+                <div id="tit_en">WHAT CANWE DO</div>
+                <div id="tit_cn">我们能做什么</div>
+            </div>
+        </div>
+        <!--第二屏第二幕-->
+        <!--抖音蓝V认证-->
+        <div class="Lanv slide">
+            <div id="Lanv">
+                <div id="Lanv_tlt">
+                    <h1>抖音企业蓝v代理认证</h1>
+                    <p>专业的事情交给专业的人，抚平你的难题，解决你的后顾之忧</p>
+                </div>
+                <div id="Lanv_box">
+                    <div id="box_tlt">
+                        <p>认证蓝V，您是否正在被这些问题困扰</p>
+                        <button class="btn">联系我们的专业人员为您解答您的疑虑</button>
+                    </div>
+                    <ul>
+                        <li id="Lanv_box_li1">
+                            <img src="images/Lanv_box%20(1).jpeg" alt="" class="img-responsive">
+                        </li>
+                        <li><img src="images/Lanv_box%20(1).jpg" alt="" class="img-responsive"></li>
+                        <li><img src="images/Lanv_box%20(2).jpg" alt="" class="img-responsive"></li>
+                        <li><img src="images/Lanv_box%20(3).jpg" alt="" class="img-responsive"></li>
+                        <li><img src="images/Lanv_box%20(4).jpg" alt="" class="img-responsive"></li>
+                        <li><img src="images/Lanv_box%20(5).jpg" alt="" class="img-responsive"></li>
+                    </ul>
+                    <div id="Lan_img_box">
+                        <div class="img_box" id="img_box1">
+                            <i class="fa fa-meh-o fa-3x"></i>
+                            <p class="p1">没经验</p>
+                            <p class="p2">抖音蓝V有什么用，我到底需不需要开通</p>
+                        </div>
+                        <div class="img_box">
+                            <i class="fa fa-cog fa-3x"></i>
+                            <p class="p1">不会操作</p>
+                            <p class="p2">如何申请抖音蓝v，从哪申请？</p>
+                        </div>
+                        <div class="img_box">
+                            <i class="fa fa-spinner fa-3x"></i>
+                            <p class="p1">周期太长</p>
+                            <p class="p2">抖音官方审核时间太长，等回复消息需要一定时间</p>
+                        </div>
+                        <div class="img_box">
+                            <i class="fa fa-list-ol fa-3x"></i>
+                            <p class="p1">流程复杂</p>
+                            <p class="p2">官方申请步骤复杂，遇到困惑不知如何是好</p>
+                        </div>
+                        <div class="img_box">
+                            <i class="fa fa-times fa-3x"></i>
+                            <p class="p1">怕风险</p>
+                            <p class="p2">审核有风险，失败审核金不予退还</p>
+                        </div>
+                        <div class="img_box">
+                            <i class="fa fa-trophy fa-3x"></i>
+                            <p class="p1">服务少</p>
+                            <p class="p2">认证蓝V后我该怎么做？一头雾水怎么办？</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Lanv_canva">
+                <div id="Lanv_none">
+                    <img src="images/wechat.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--第二屏第三幕-->
+        <!--小程序-->
+        <div class="Shop slide">
+            <div class="Shop">
+                <div class="yy"></div>
+                <div id="applets_tlt">
+                    <p>我们能为您个人或者企业量身打造小程序真正做到<br></p>
+                    <p><em>快速销货，一站式服务</em></p>
+                </div>
+                <div id="Shop_content_ul1">
+                    <ul id="ul1">
+                        <li class="li2" id="lil1">
+                            <i class="fa fa-bank fa-5x"></i>
+                            <p></p>
+                        </li>
+                        <li class="li1">
+                            <i class="fa fa-angle-right fa-2x"></i>
+                        </li>
+                        <li class="li2" id="lil3">
+                            <i class="fa fa-desktop fa-5x"></i>
+                        </li>
+                        <li class="li1"><i class="fa fa-angle-right fa-2x"></i>
+                        <li class="li2" id="lil5">
+                            <i class="fa fa-diamond fa-5x"></i>
+                        </li>
+                        <li class="li1"><i class="fa fa-angle-right fa-2x"></i>
+                        </li>
+                        <li class="li2" id="lil7">
+                            <i class="fa fa-group fa-5x"></i>
+                        </li>
+                        <li class="li1"><i class="fa fa-angle-right fa-2x"></i>
+                        </li>
+                        <li class="li2" id="lil9">
+                            <i class="fa fa-share-alt fa-5x"></i>
+                        </li>
+                        <li class="li1"><i class="fa fa-angle-right fa-2x"></i>
+                        </li>
+                        <li class="li2"  id="lil11">
+                            <i class="fa fa-legal fa-5x"></i>
+                        </li>
+                    </ul>
+
+                    <ul id="ul2">
+                        <li class="li3" id="lil2">
+                            <p>    线上商城帮助商品电商商家一站
+                                式管理自己的线上店铺。</p>
+                        </li>
+                        <li class="li4">
+                            <i class="fa fa-angle-right fa-2x"></i>
+                        </li>
+                        <li class="li3" id="lil4">
+                            <p>利用文字、图片和视频的组合，
+                                全面展示企业形象。</p>
+                        </li>
+                        <li class="li4"><i class="fa fa-angle-right fa-2x"></i>
+                        </li>
+                        <li class="li3" id="lil6">
+                            <p>帮助服务类电商商家线上开店，
+                                办卡券引流用户到店消费。</p>
+                        </li>
+                        <li class="li4">
+                            <i class="fa fa-angle-right fa-2x"></i>
+                        </li>
+                        <li class="li3" id="lil8">
+                            <p> 通过平台联系达人，拍
+                                抖音，挂载小程序链接</p>
+                        </li>
+                        <li class="li4"><i class="fa fa-angle-right fa-2x"></i>
+                        <li class="li3" id="lil10">
+                            <p>
+                                达人拍摄或上传视频视频区和
+                                评论区出现小程序商品链接
+                            </p>
+                        </li>
+                        <li class="li4"><i class="fa fa-angle-right fa-2x"></i>
+                        </li>
+                        <li class="li3"  id="lil12">
+                            <p>
+                                视频卖货成功，提高宣传力
+                                达人和商家及我们平台实现三赢
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--第二屏第四幕-->
+        <!--抖音小店-->
+        <div class="Xiaodian slide">
+            <div class="Xiaodian">
+                <div id="Xiaodian_tlt">
+                    <h1><em>抖音小店</em></h1>
+                    <p>什么是抖音小店，我能靠他做什么？</p>
+                </div>
+                <div id="xd_img">
+                    <div id="xd_imgs">
+                        <img class="img-responsive" src="images/Xiaodian_img1.jpg" alt="">
+                    </div>
+                </div>
+                <div id="xd_js">
+                    <div id="xd_jss">
+                        <p>抖音小店是抖音为自媒体作者提供的电商变现工具，帮助自媒体作者拓宽内容变现渠道。</p>
+                        <p>店铺开通后，可以在您的头条号、抖音、火山个人主义展示您专属的店铺页面，小店的商品可通过微头条、视频、文章等多种方式进行展示曝光</p>
+                        <p id="p3">抖音小店是店铺，和淘宝店铺性质相同；购物车和橱窗是抖音的电商功能，在视频和个人主页添加抖音商品的功能。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第二屏第五幕-->
+        <div class="Guide slide">
+            <div class="Guide">
+                <div id="Guide_tlt">
+                    <h1><em>抖音小店</em></h1>
+                    <p>什么是抖音小店，我能靠他做什么？</p>
+                </div>
+                <div id="Guide_img">
+                    <img class="img-responsive" src="images/Xiaodian_img1.jpg" alt="">
+                </div>
+                <div id="Guide_js">
+
+                </div>
+            </div>
+        </div>
+        <!--第二屏第六幕-->
+        <div class="plan slide">
+            <div id="plan-img">
+                <img src="images/iphone2.png" id="p-1" alt="">
+                <img src="images/iphone3.png" id="p-2" alt="">
+                <img src="images/iphone4.png" id="p-3" alt="">
+            </div>
+            <div id="plan-tit">
+                <h2>专业的策划团队<br>定制专属你的创意视频</h2>
+                <p><em>格辉商务</em> 的最终目的就是要发挥创意的力量，利用各种有效发声点在市场上形成统一的、多方位的品牌声浪，有声浪就有话语权。格辉以企业品牌核心价值为原则,在品牌识别的整体框架下,为客户量身定制高效、精准、的整合营销传播策略及执行。我们通过“智慧种子”的服务，调配东道各团队专业人员，为客户提供传播终端的数据研究、传播策略制定、平面和视听全方位创意解决方案、媒介执行、公关活动策划及执行、网络营销、传播效果跟踪和优化、长期传播顾问等"一站式服务"</p>
+            </div>
+        </div>
+        <!--第二屏第七幕-->
+        <div class="writing slide">
+            <div id="writing">
+                <div id="writing-tit">
+                    <p>
+                        我们按照专业流程在最短时间内为您的账号吸引大量人气
+                    </p>
+                </div>
+                <div id="writing-Process">
+                    <ul class="ul1"  >
+                        <li id="writing-li1"><p>蓝V打造</p></li>
+                        <li id="writing-li2"><p>分析定位</p></li>
+                        <li id="writing-li3"><p>策略定制</p></li>
+                        <li id="writing-li4"><p>脚本策划</p></li>
+                        <li id="writing-li5"><p>运营推广</p></li>
+                        <li id="writing-li6"><p>风险排除</p></li>
+                    </ul>
+                    <ul class="ul2">
+                        <li id="writing-li7"><p>脚本策划</p></li>
+                        <li id="writing-li8"><p>运营推广</p></li>
+                        <li id="writing-li9"><p>风险排除</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--第二屏第八幕-->
+        <div class="photography slide">
+            <div class="photography">
+                <div id="photography-tit">
+                    <p>我们有专业的摄影团队，演员团队，只要有需要，策划完成立马为您拍摄出你满意的作品！</p>
+                </div>
+                <div id="photography-img">
+                    <div id="box-img1">
+                        <img class="img-responsive" src="images/box-img%20(1).jpg" alt="">
+                    </div>
+                    <div id="box-img2">
+                        <img src="images/box-img%20(2).jpg" alt="">
+                    </div>
+                    <div id="box-img3">
+                        <img class="img-responsive" src="images/box-img%20(3).jpg" alt="">
+                    </div>
+                    <div id="box-img4">
+                        <img class="img-responsive" src="images/box-img%20(4).jpg" alt="">
+                    </div>
+                    <div id="box-img5">
+                        <img class="img-responsive" src="images/box-img%20(5).jpg" alt="">
+                    </div>
+                    <div id="box-img6">
+                        <img class="img-responsive" src="images/box-img%20(6).jpg" alt="">
+                    </div>
+                    <div id="box-img7">
+                        <img class="img-responsive" src="images/box-img%20(7).jpg" alt="">
+                    </div>
+                    <div id="box-img8">
+                        <img class="img-responsive" src="images/box-img%20(8).jpg" alt="">
+                    </div>
+                    <div id="box-img9">
+                        <img class="img-responsive" src="images/box-img%20(9).jpg" alt="">
+                    </div>
+                    <div id="box-img10">
+                        <img class="img-responsive" src="images/box-img%20(10).jpg" alt="">
+                    </div>
+                    <div id="box-img11">
+                        <img class="img-responsive" src="images/box-img%20(11).jpg" alt="">
+                    </div>
+                    <div id="box-img12">
+                        <img class="img-responsive" src="images/box-img%20(12).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--经典案例-->
+    <div class="section">
+        <div class="case">
+            <div id="case-tit">
+                <p>客户案例<span>/</span><em>Customer case</em></p>
+            </div>
+            <div class="file">
+                <div id="img">
+                    <div id="Publicity-1">
+                        <div class="Publicity-map">
+                            <img class="img-responsive" src="images/case1.png" alt="">
+                        </div>
+                        <div class="Promotional-text"> <em>悦美形体：</em>提供策划思路，一个月粉丝突破 <em>200万</em>，日均自动导流 <em>微信100+</em>，课程月销售额突破 <em>微信100+</em></div>
+                    </div>
+                    <div id="Publicity-2">
+                        <div class="Publicity-map">
+                            <img class="img-responsive" src="images/case2.png" alt="">
+                        </div>
+                        <div class="Promotional-text"> <em>悦美形体：</em>提供策划思路，一个月粉丝突破 <em>200万</em>，日均自动导流 <em>微信100+</em>，课程月销售额突破 <em>100+</em></div>
+                    </div>
+                    <div id="Publicity-3">
+                        <div class="Publicity-map">
+                            <img class="img-responsive" src="images/case3.png" alt="">
+                        </div>
+                        <div class="Promotional-text"><em>廖同学:</em>单条视频点赞量4.3万播放量 <em>100万+</em>，单条视频带来精华液 <em>销量13282件</em>，销售额 <em>158.9万元</em>带动全店SKU <em>销量提升</em></div>
+                    </div>
+                    <div id="Publicity-4">
+                        <div class="Publicity-map">
+                            <img class="img-responsive" src="images/case4.png" alt="">
+                        </div>
+                        <div class="Promotional-text"><em>广州融创乐园:</em> 采用话题推广带来品牌曝光量 <em>300万+</em> <em>月吸粉3万本地用户</em></div>
+                    </div>
+                    <div id="Publicity-5">
+                        <div class="Publicity-map">
+                            <img class="img-responsive" src="images/case5.png" alt="">
+                        </div>
+                        <div class="Promotional-text"><em>米优娱乐</em>去年5月17日发布的 <em>第一个作品</em>获赞 <em>1.1w</em>，目前一共输出 <em>74个作品</em>，累计粉丝 <em>83.9w</em> ‍</div>
+                    </div>
+                    <div id="Publicity-6">
+                        <div class="Publicity-map">
+                            <img class="img-responsive" src="images/case6.png" alt="">
+                        </div>
+                        <div class="Promotional-text"><em>京内科技馆：</em>去年年底接手运营，粉丝累计到 <em>20万</em>开始商业变现带货，<em>3个月</em>累计销售 <em>800多万</em>营业额</div>
+                    </div>
+                    <div id="Publicity-7">
+                        <div class="Publicity-map">
+                            <img class="img-responsive" src="images/case7.png" alt="">
+                        </div>
+                        <div class="Promotional-text"><em>逗包的生活:</em>2018年12月发布的第一个作品获赞 <em>5277个赞</em>，目前一共输出 <em>124个作品</em>，累计粉丝 <em>32.5w</em></div>
+                    </div>
+                    <div id="Publicity-8">
+                        <div class="Publicity-map">
+                            <img class="img-responsive" src="images/case8.png" alt="">
+                        </div>
+                        <div class="Promotional-text"> <em>学车教练胡开:</em>第一条短视频获 <em>1.5万</em>赞，评论数333条，转发量最高达到 <em>76万</em>，增长率 <em>11.5%</em>，累计粉丝 <em>11.5%</em> ‍</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--合作伙伴-->
+    <div class="section">
+        <div class="yy2"></div>
+        <div class="partner">
+            <div id="partner_tlt">
+                <h1>服务客户 <span>/</span> <em>Customer service</em></h1>
+                <p>我们与客户一起为市场留下了良好的口碑和深远的品牌价值同客户一起合作共赢、互惠互助</p>
+            </div>
+            <div id="partner_img">
+                <ul>
+                    <li><img src="images/partner%20(1).png" alt=""></li>
+                    <li><img src="images/partner%20(2).png" alt=""></li>
+                    <li><img src="images/partner%20(3).png" alt=""></li>
+                    <li><img src="images/partner%20(4).png" alt=""></li>
+                    <li><img src="images/partner%20(5).png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--联系我们-->
+    <div class="section">
+        <div class="contact_us">
+            <div class="yy2"></div>
+            <h1 id="lxwm">联系我们/contact us</h1>
+            <div id="contact_gh">
+                <div id="contact_gh_logo">
+                    <img class="img-responsive" src="images/logo.png" alt="">
+                </div>
+                <div id="contact_gh_tel">
+                    <div id="contact_gh_wechat">
+                        <img class="img-responsive" src="images/wechat.jpg" alt="">
+                    </div>
+                    <div id="contact_gh_txt">
+                        <p style="color: white">业务合作请联系</p>
+                        <em>17708485171</em><br>
+                        <p style="color: white">扫描左侧二维码添加微信</p>
+                    </div>
+                </div>
+            </div>
+            <div id="algorithm">
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;抖音的算法分为三个步骤:
+                    第一，冷启动流量池曝光假设每天在抖音上有 100 万人上传短视频，抖音会随机给每个短视频分配一个平均曝光量的冷启动流量池。比如，每个短视频通过审核发出后，平均有 1000 次曝光。第二，数据挑选抖音会从这 100 万个短视频的 1000 次曝光，分析点赞、关注、评论、转发等 各个维度的数据，从中再挑出各项指标超过 10%的视频，每条再平均分配 10万次曝光。然后再去看哪些是点赞、关注、转发、评论是超过 10%的，再滚进 下一轮更大的流量池进行推荐。第三，精品推荐池通过一轮又一轮验证，筛选出来点赞率、播放完成率、评论互动率等指标都极高的短视频才有机会进入精品推荐池，用户打开时，看到的那些动辄几十上百万点赞量的视频就是这么来的。接下来分享的所有干货和技巧，都是紧紧围绕着最核心的一点:通过提升点赞 量、关注量、评论量、转发率等指标，获得更大的官方精准推荐，赢得更大的 曝光。
+                    <br></p>
+                <p><span>     抖音这种推荐算法机制，在一定程度上拉小了中小品牌及企业在制作能力、预算与知名大企业的差距，但抖音营销商模式改变或成型，机会便随之减少直至消失，别犹豫了，得先机者得天下！</span></p>
+            </div>
+            <div id="contact_us_txt">
+                <h1>与格辉商务合作吧，下一个火的，就是你的品牌！</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="JS/fullpage.js"></script>
+<script>
+    /*轮播图*/
+    $('.ck-slide').ckSlide({
+        autoPlay: true
+        /*dir:"x"*/
+    });
+    /*复制微信号*/
+    $(document).ready(function(){
+        var clipboard = new Clipboard('#copy_wechat');
+        clipboard.on('success', function(e) {
+            alert("已复制微信号，请前往微信添加",1500);
+            window.location.href='weixin://';
+            e.clearSelection();
+            console.log(e.clearSelection);
+        });
+    });
+    /*合作商轮播*/
+    window.onload=function(){
+        var oDiv = document.getElementById('partner_img');
+        var oUl = oDiv.getElementsByTagName('ul')[0];
+        var Li = oUl.getElementsByTagName('li');//获取ul下的所有li
+        oUl.innerHTML = oUl.innerHTML+oUl.innerHTML;//li下的内容进行想加
+        oUl.style.width = Li[0].offsetWidth*Li.length+'px';//ul的宽度等于每个li的宽度乘以所有li的长度
+        var speed = 2;
+
+        //主方法
+        function move(){
+            //如果左边横向滚动了长度一半之后,回到初始位置
+
+            if(oUl.offsetLeft<-oUl.offsetWidth/speed){
+                oUl.style.left = '0';
+            }
+            //如果右边横向滚动的距离大于0 就让他的位置回到一半
+            if(oUl.offsetLeft>0){
+                oUl.style.left = -oUl.offsetWidth/speed+'px';
+            }
+            //oUl.style.left = oUl.offsetLeft-2+'px';//进行左横向滚动
+            oUl.style.left = oUl.offsetLeft+speed+'px';//进行右横向滚动
+        }
+        //调用方法
+        var timer = setInterval(move,30)
+        //鼠标指向的时候 暂停
+        oDiv.onmouseover=function(){
+            clearInterval(timer);
+        }
+        //鼠标离开之后 继续滚动
+        oDiv.onmouseout=function(){
+            timer = setInterval(move,30);
+        }
+    }
+</script>
+</body>
+</html>
